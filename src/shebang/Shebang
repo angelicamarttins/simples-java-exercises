@@ -1,0 +1,9 @@
+#!/home/angelica-martins/.sdkman/candidates/java/current/bin/java --source 21
+
+public class Shebang {
+
+  public static void main(String[] args) {
+    System.out.println("Testando shebang");
+  }
+
+}
