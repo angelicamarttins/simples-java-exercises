@@ -1,4 +1,4 @@
-package utils;
+package compile_multiple_java_files.utils;
 
 public class Endereco {
 

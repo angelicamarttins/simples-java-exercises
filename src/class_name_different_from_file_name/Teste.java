@@ -1,9 +1,9 @@
 package class_name_different_from_file_name;
 
-̣// Build error
 public class Teste {
 
   public static void main(String[] args) {
+    // Build error when class name is Test
     System.out.println("Testing");
   }
 

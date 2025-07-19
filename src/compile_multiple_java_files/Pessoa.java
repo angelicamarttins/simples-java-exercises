@@ -1,3 +1,5 @@
+package compile_multiple_java_files;
+
 public class Pessoa {
 
   private String nome;

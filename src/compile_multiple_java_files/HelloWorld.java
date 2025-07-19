@@ -1,4 +1,6 @@
-import utils.Endereco;
+package compile_multiple_java_files;
+
+import compile_multiple_java_files.utils.Endereco;
 
 public class HelloWorld {
 
