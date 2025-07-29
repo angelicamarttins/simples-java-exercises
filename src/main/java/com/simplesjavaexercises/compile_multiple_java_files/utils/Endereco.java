@@ -1,4 +1,4 @@
-package compile_multiple_java_files.utils;
+package com.simplesjavaexercises.compile_multiple_java_files.utils;
 
 public class Endereco {
 

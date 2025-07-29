@@ -1,4 +1,4 @@
-package compile_multiple_java_files;
+package com.simplesjavaexercises.compile_multiple_java_files;
 
 public class Pessoa {
 

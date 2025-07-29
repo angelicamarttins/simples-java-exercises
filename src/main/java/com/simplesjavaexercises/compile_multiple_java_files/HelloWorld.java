@@ -1,6 +1,6 @@
-package compile_multiple_java_files;
+package com.simplesjavaexercises.compile_multiple_java_files;
 
-import compile_multiple_java_files.utils.Endereco;
+import com.simplesjavaexercises.compile_multiple_java_files.utils.Endereco;
 
 public class HelloWorld {
 

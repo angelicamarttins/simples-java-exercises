@@ -1,4 +1,4 @@
-package class_name_different_from_file_name;
+package com.simplesjavaexercises.class_name_different_from_file_name;
 
 public class Teste {
 
