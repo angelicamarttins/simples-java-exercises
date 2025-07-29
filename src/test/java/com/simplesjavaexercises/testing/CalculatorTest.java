@@ -1,13 +1,27 @@
 package com.simplesjavaexercises.testing;
 
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class CalculatorTest {
+public class CalculatorTest {
 
   @Test
-  void average() {
+  void shouldCalculateAverageOfPositiveNumbers() {
+    int[] numbers = {1, 2, 3, 4, 5};
 
+    double actualAverage = Calculator.average(numbers);
+
+    double expectedAverage = 3.0;
+    assertEquals(expectedAverage, actualAverage);
+  }
+
+  @Test
+  void shouldReturnZeroAverageForEmptyArray() {
+    int[] numbers = {};
+
+    double actualAverage = Calculator.average(numbers);
+
+    double expectedAverage = 0;
+    assertEquals(expectedAverage, actualAverage);
   }
 }

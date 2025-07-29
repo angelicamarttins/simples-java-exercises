@@ -6,8 +6,14 @@ public class Calculator {
     int sum = 0;
     for (int number : numbers) {
       sum += number;
+
+      printSum(sum);
     }
     return (double) sum / numbers.length;
+  }
+
+  private static void printSum(int sum) {
+    System.out.printf("Sum = %d%n", sum);
   }
 }
 
