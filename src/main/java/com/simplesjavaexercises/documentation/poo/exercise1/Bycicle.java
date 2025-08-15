@@ -1,6 +1,6 @@
 package com.simplesjavaexercises.documentation.poo.exercise1;
 
-public class Bycicle {
+public class Bycicle implements BycicleDocumentation {
   private Boolean isOn = false;
   private Long speed = 0L;
   private Long gear = 0L;
@@ -11,6 +11,8 @@ public class Bycicle {
   }
 
   public void turnOff() {
+    this.speed = 0L;
+    this.gear = 0L;
     this.isOn = false;
   }
 
@@ -43,4 +45,8 @@ public class Bycicle {
     System.out.printf("Current fuel %d\n", fuel);
   }
 
+  @Override
+  public boolean isDocumentationOk() {
+    return false;
+  }
 }

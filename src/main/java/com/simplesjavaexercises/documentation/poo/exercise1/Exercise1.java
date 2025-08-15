@@ -9,6 +9,19 @@ public class Exercise1 {
     chair.printChair();
 
     Bycicle bycicle = new Bycicle();
+    bycicle.turnOn();
+    bycicle.accelerate(10L);
+    bycicle.brake(2L);
+    bycicle.changeGear(2L);
     bycicle.displayStatus();
+    bycicle.turnOff();
+    bycicle.displayStatus();
+
+    BMWBycicle bmwBycicle = new BMWBycicle();
+    bmwBycicle.setModel("XJ");
+    bmwBycicle.turnOn();
+    bmwBycicle.changeGear(3L);
+    bmwBycicle.displayStatus();
+    bmwBycicle.isDocumentationOk();
   }
 }
