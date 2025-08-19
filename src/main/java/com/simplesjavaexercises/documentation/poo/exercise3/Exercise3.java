@@ -33,9 +33,9 @@ public class Exercise3 {
   }
 
   private static int exercise3() {
-    double[] tempetures = {23.5, 28.1, 19.0, 32.7, 25.3};
+    double[] temperatures = {23.5, 28.1, 19.0, 32.7, 25.3};
 
-    return tempetures.length;
+    return temperatures.length;
   }
 
   private static String exercise4() {
