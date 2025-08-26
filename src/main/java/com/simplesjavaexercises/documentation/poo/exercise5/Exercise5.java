@@ -15,6 +15,7 @@ public class Exercise5 {
 
     Square square = new Square();
     System.out.println(square.getHeight());
+    System.out.println(square.height);
   }
 
   public static void example(String... args) {
@@ -22,4 +23,15 @@ public class Exercise5 {
       System.out.println("Argument = " + argument);
     }
   }
+
+  public static void returnWithoutValue() {
+    int condition = 3;
+
+    for (int i = 0; i <= condition; i++) {
+      if (i == 2) {
+        return;
+      }
+    }
+  }
+
 }

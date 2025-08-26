@@ -2,7 +2,7 @@ package com.simplesjavaexercises.documentation.poo.exercise5;
 
 public class Square extends Point {
 
-  private int height;
+  public int height;
   private int width;
 
   public int getHeight() {
