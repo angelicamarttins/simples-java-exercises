@@ -13,9 +13,16 @@ public class Exercise5 {
     String lastName = "Martins";
     example(name, middleName, lastName);
 
+    System.out.println("----------------------------------");
+
     Square square = new Square();
     System.out.println(square.getHeight());
     System.out.println(square.height);
+
+    System.out.println("----------------------------------");
+
+    System.out.println(testingReturnMethodSubclass());
+    System.out.println(testingReturnMethodInterface().anyMethod());
   }
 
   public static void example(String... args) {
@@ -32,6 +39,14 @@ public class Exercise5 {
         return;
       }
     }
+  }
+
+  public static Point testingReturnMethodSubclass() {
+    return new Square(10, 10);
+  }
+
+  public static Area testingReturnMethodInterface() {
+    return new Square(20, 20);
   }
 
 }
