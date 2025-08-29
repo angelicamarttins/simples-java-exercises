@@ -1,7 +1,7 @@
 package com.simplesjavaexercises.documentation.poo.exercise6;
 
-class Example {
-  public Example() {
+class ExampleInstance {
+  public ExampleInstance() {
     // Usando x no construtor, mesmo que venha depois na declaração
     System.out.println("Construtor: x = " + x);
   }
@@ -15,6 +15,6 @@ class Example {
 //  }
 
   public static void main(String[] args) {
-    new Example();
+    new ExampleInstance();
   }
 }
