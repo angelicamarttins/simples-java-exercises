@@ -28,6 +28,17 @@ public class Main {
     System.out.println("---------------------------------");
 
     showAllAuthors("Sócrates", "Platão", "Aristóteles");
+
+    System.out.println("---------------CAR------------------");
+
+    Car car = new Car();
+    car.setMake("A");
+    car.setModel("B");
+    car.setYear(2025);
+
+    System.out.println(car.getMake());
+    System.out.println(car.getModel());
+    System.out.println(car.getYear());
   }
 
   public static void modifyPrimitive(int p) {
