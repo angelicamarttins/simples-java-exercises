@@ -1,6 +1,6 @@
 package com.simplesjavaexercises.documentation.poo.exercise7;
 
-public class Main {
+public class Exercise7 {
 
   public static void main(String[] args) {
     int value = 10;
