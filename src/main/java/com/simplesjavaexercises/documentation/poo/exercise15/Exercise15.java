@@ -16,10 +16,6 @@ public class Exercise15 {
 
     System.out.println(Arrays.toString(generateRandomRange()));
     System.out.println("-----------------");
-
-    String num = "" + 2;
-    System.out.println(num);
-    System.out.println(num.getClass());
   }
 
   private static int[] generateRandomRange() {
