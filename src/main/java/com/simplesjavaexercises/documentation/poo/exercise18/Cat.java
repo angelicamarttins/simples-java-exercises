@@ -8,11 +8,5 @@ public class Cat extends Animal {
     System.out.println("The instance method in Cat");
   }
 
-  public static void main(String[] args) {
-    Cat myCat = new Cat();
-    Animal myAnimal = myCat;
-    Animal.testClassMethod();
-    myAnimal.testInstanceMethod();
-    testClassMethod();
-  }
+
 }
